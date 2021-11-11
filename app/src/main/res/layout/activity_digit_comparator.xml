@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/first_digit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Digit" />
+
+    <EditText
+        android:id="@+id/second_digit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Digit" />
+
+    <Button
+        android:id="@+id/btn_compare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Compare" />
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="32sp"
+        tools:text="Result" />
+
+</LinearLayout>
